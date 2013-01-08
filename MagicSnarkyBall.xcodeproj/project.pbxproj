@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB7DD5921693984F00A20325 /* SnarkyContent.txt in Resources */ = {isa = PBXBuildFile; fileRef = EB7DD5911693984F00A20325 /* SnarkyContent.txt */; };
 		EBCEA41716923E7600561C62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCEA41616923E7600561C62 /* UIKit.framework */; };
 		EBCEA41916923E7600561C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCEA41816923E7600561C62 /* Foundation.framework */; };
 		EBCEA41B16923E7600561C62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCEA41A16923E7600561C62 /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 		EBCEA44016923E7600561C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCEA41816923E7600561C62 /* Foundation.framework */; };
 		EBCEA44816923E7600561C62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBCEA44616923E7600561C62 /* InfoPlist.strings */; };
 		EBCEA44B16923E7600561C62 /* MagicSnarkyBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCEA44A16923E7600561C62 /* MagicSnarkyBallTests.m */; };
+		EBCEA4561692413F00561C62 /* MagicSnarkyBallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCEA4551692413F00561C62 /* MagicSnarkyBallModel.m */; };
+		EBE5AE521698A03100234477 /* IMG_1337.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EBE5AE511698A03100234477 /* IMG_1337.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB7DD5911693984F00A20325 /* SnarkyContent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SnarkyContent.txt; sourceTree = "<group>"; };
 		EBCEA41216923E7600561C62 /* MagicSnarkyBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicSnarkyBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCEA41616923E7600561C62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EBCEA41816923E7600561C62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +64,9 @@
 		EBCEA44716923E7600561C62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBCEA44916923E7600561C62 /* MagicSnarkyBallTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicSnarkyBallTests.h; sourceTree = "<group>"; };
 		EBCEA44A16923E7600561C62 /* MagicSnarkyBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicSnarkyBallTests.m; sourceTree = "<group>"; };
+		EBCEA4541692413F00561C62 /* MagicSnarkyBallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicSnarkyBallModel.h; sourceTree = "<group>"; };
+		EBCEA4551692413F00561C62 /* MagicSnarkyBallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicSnarkyBallModel.m; sourceTree = "<group>"; };
+		EBE5AE511698A03100234477 /* IMG_1337.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1337.JPG; path = ../../../../Pictures/IMG_1337.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +126,16 @@
 		EBCEA41C16923E7600561C62 /* MagicSnarkyBall */ = {
 			isa = PBXGroup;
 			children = (
+				EBE5AE511698A03100234477 /* IMG_1337.JPG */,
 				EBCEA42516923E7600561C62 /* MagicSnarkyBallAppDelegate.h */,
 				EBCEA42616923E7600561C62 /* MagicSnarkyBallAppDelegate.m */,
 				EBCEA42E16923E7600561C62 /* MainStoryboard_iPhone.storyboard */,
 				EBCEA43116923E7600561C62 /* MainStoryboard_iPad.storyboard */,
+				EBCEA4541692413F00561C62 /* MagicSnarkyBallModel.h */,
+				EBCEA4551692413F00561C62 /* MagicSnarkyBallModel.m */,
 				EBCEA43416923E7600561C62 /* MagicSnarkyBallViewController.h */,
 				EBCEA43516923E7600561C62 /* MagicSnarkyBallViewController.m */,
+				EB7DD5911693984F00A20325 /* SnarkyContent.txt */,
 				EBCEA41D16923E7600561C62 /* Supporting Files */,
 			);
 			path = MagicSnarkyBall;
@@ -241,6 +252,8 @@
 				EBCEA42D16923E7600561C62 /* Default-568h@2x.png in Resources */,
 				EBCEA43016923E7600561C62 /* MainStoryboard_iPhone.storyboard in Resources */,
 				EBCEA43316923E7600561C62 /* MainStoryboard_iPad.storyboard in Resources */,
+				EB7DD5921693984F00A20325 /* SnarkyContent.txt in Resources */,
+				EBE5AE521698A03100234477 /* IMG_1337.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +291,7 @@
 				EBCEA42316923E7600561C62 /* main.m in Sources */,
 				EBCEA42716923E7600561C62 /* MagicSnarkyBallAppDelegate.m in Sources */,
 				EBCEA43616923E7600561C62 /* MagicSnarkyBallViewController.m in Sources */,
+				EBCEA4561692413F00561C62 /* MagicSnarkyBallModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +407,7 @@
 				GCC_PREFIX_HEADER = "MagicSnarkyBall/MagicSnarkyBall-Prefix.pch";
 				INFOPLIST_FILE = "MagicSnarkyBall/MagicSnarkyBall-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,6 +419,7 @@
 				GCC_PREFIX_HEADER = "MagicSnarkyBall/MagicSnarkyBall-Prefix.pch";
 				INFOPLIST_FILE = "MagicSnarkyBall/MagicSnarkyBall-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +477,7 @@
 				EBCEA45016923E7600561C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBCEA45116923E7600561C62 /* Build configuration list for PBXNativeTarget "MagicSnarkyBallTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +486,7 @@
 				EBCEA45316923E7600561C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
